@@ -4,4 +4,9 @@
   <artifactId>persistence-common</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>api for persistence</name>
+  <parent>
+  	<groupId>com.unipro.parent</groupId>
+  	<artifactId>unipro-parent</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  </parent>
 </project>

@@ -5,4 +5,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>service common</name>
   <description>service api</description>
+  <parent>
+  	<groupId>com.unipro.parent</groupId>
+  	<artifactId>unipro-parent</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  </parent>
 </project>

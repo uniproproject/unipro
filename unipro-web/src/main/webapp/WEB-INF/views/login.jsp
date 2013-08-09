@@ -8,7 +8,7 @@
 	<div>LOGIN</div>
 
 	<div>
-		<form:form commandName="person" method="post">
+		<form:form commandName="user" method="post">
 		name: <form:input path="name" /> <br>
 		password : <form:password path="password" />
 			<input type="submit" name="login">
