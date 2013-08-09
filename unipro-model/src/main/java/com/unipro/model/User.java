@@ -1,10 +1,10 @@
 package com.unipro.model;
 
-public class Person {
+public class User {
 	
 	private String name, password;
 	
-	public Person() {
+	public User() {
 		// TODO Auto-generated constructor stub
 	}
 
