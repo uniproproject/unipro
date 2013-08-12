@@ -21,19 +21,16 @@ public class UniproEndpoint {
 	private static final org.slf4j.Logger LOGGER = LoggerFactory
 			.getLogger(UniproEndpoint.class);
 
-	private static Session professorSession;
-	
-	private static Map<Student, Session> studentSessionMap = new ConcurrentHashMap<>();
-	
-	
-
-	private static synchronized void discoverProfessorSession(Session session) {
-		
-		
-	}
-
+//	private static Session professorSession;
+//	
+//	private static Map<Student, Session> studentSessionMap = new ConcurrentHashMap<>();
+//	
 	
 	
+	
+	/**
+	 * 
+	 */
 	public UniproEndpoint() {
 		
 	}

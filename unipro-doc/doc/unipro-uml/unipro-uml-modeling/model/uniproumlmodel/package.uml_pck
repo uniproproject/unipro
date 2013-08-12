@@ -4,4 +4,7 @@
  <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:22037b3d-2ac9-4c1d-9d7b-fad0d6c8bd38'
    name='uniproumlmodeli'
    visibility='public'/>
+ <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:d9f48a48-19b7-4655-859d-a983e75b3a1d'
+   name='uniproumlmodel'
+   visibility='public'/>
 </xmi:XMI>
