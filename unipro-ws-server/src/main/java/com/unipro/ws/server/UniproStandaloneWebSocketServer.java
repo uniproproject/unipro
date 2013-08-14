@@ -1,4 +1,4 @@
-package com.unipro.standalone.server;
+package com.unipro.ws.server;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

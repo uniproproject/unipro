@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.unipro.standalone</groupId>
-	<artifactId>unipro-standalone</artifactId>
-	<name>unipro standalone</name>
-	<description>run in websocket standalone server</description>
+	<groupId>com.unipro.server</groupId>
+	<artifactId>unipro-ws-server</artifactId>
+	<name>unipro websocket server</name>
+	<description>websocket standalone server</description>
 	<parent>
 		<groupId>com.unipro.parent</groupId>
 		<artifactId>unipro-parent</artifactId>
@@ -16,7 +16,7 @@
 			<artifactId>tyrus-server</artifactId>
 			<version>1.2</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.glassfish.tyrus</groupId>
 			<artifactId>tyrus-container-grizzly</artifactId>
@@ -28,4 +28,28 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					
+					<archive>
+						<manifest>
+							<mainClass>com.unipro.ws.server.UniproStandaloneWebSocketServer</mainClass>
+						</manifest>
+					</archive>
+					<finalName>unipro-ws-server</finalName>
+					
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+					
+					<outputDirectory>./libs</outputDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>

@@ -16,6 +16,7 @@
   <collaborationRole href='urn:uuid:ffa96bae-f619-4ee8-8b8c-423aaa9cff18'/>
   <collaborationRole href='urn:uuid:8b0327c3-c567-49d0-9802-4401196c13ac'/>
   <collaborationRole href='urn:uuid:67490b55-be98-4193-a550-d1807f06c43f'/>
+  <collaborationRole href='urn:uuid:f03a81ba-6049-4430-9d0b-3677b8731679'/>
   <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:e6fe50e6-1fa0-498c-8ddb-2e821786113c'
     isDerived='false'
     isDerivedUnion='false'
@@ -36,7 +37,7 @@
     isReadOnly='false'
     isStatic='false'
     isUnique='true'
-    name='UniproEndPoint'
+    name='UniproEndPoint:@ServerEndpoint'
     aggregation='none'/>
   <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:797b58bb-5e56-451a-9bf8-b69aa50f6054'
     isDerived='false'
@@ -115,13 +116,24 @@
     isUnique='true'
     name='OpenSessionService'
     aggregation='none'/>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:f03a81ba-6049-4430-9d0b-3677b8731679'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='Login Page'
+    aggregation='none'/>
   <ownedBehavior xmi:type='uml:Interaction' xmi:uuid='urn:uuid:c24a58e4-618f-4a7d-be25-635500f356b5'
     isAbstract='false'
     isActive='false'
     isFinalSpecialization='false'
     isLeaf='false'
     isReentrant='true'
-    name='Interaction1'
+    name='login process'
     visibility='public'>
    <fragment xmi:type='uml:BehaviorExecutionSpecification' xmi:uuid='urn:uuid:6176d7cf-1fc2-421e-af92-4917d22e4c1c'
      name='10_execspec'>
@@ -631,6 +643,10 @@
     <coveredBy href='urn:uuid:b695bd66-e50c-4849-8f87-5323d8ea24de'/>
     <coveredBy href='urn:uuid:4636d4fe-c43f-42be-b7ad-c8ac2ab43504'/>
    </lifeline>
+   <lifeline xmi:type='uml:Lifeline' xmi:uuid='urn:uuid:4fa029eb-8973-48ea-a0ca-d0918187aff2'
+     name='Lifeline10'>
+    <represents href='urn:uuid:f03a81ba-6049-4430-9d0b-3677b8731679'/>
+   </lifeline>
    <message xmi:type='uml:Message' xmi:uuid='urn:uuid:30892356-2d89-4046-9622-29bfdcd34a55'
      name='Message1'
      messageSort='synchCall'>
@@ -725,7 +741,7 @@
     <receiveEvent href='urn:uuid:4cf4a611-7fd8-456a-ba10-23e39fcbe368'/>
     <sendEvent href='urn:uuid:d971ad20-aff8-45b9-b51a-77bd1779bd7c'/>
     <ownedComment xmi:type='uml:Comment' xmi:uuid='urn:uuid:8b683c64-8d12-4cbd-b5d4-6fdc1b3dd790'
-      body='getClienInfo()'/>
+      body='searchClientInfo'/>
    </message>
    <message xmi:type='uml:Message' xmi:uuid='urn:uuid:518895da-8172-4535-b9c9-193900549148'
      name='Message12'

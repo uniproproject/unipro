@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Collaboration xmi:type='uml:Collaboration' xmi:uuid='urn:uuid:22c03008-140d-4be7-9ddb-7d329800b388'
+   isAbstract='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Collaboration2'
+   visibility='public'>
+  <ownedBehavior xmi:type='uml:Interaction' xmi:uuid='urn:uuid:f0edbb13-cf1c-4fdf-947c-788c7b4f01f4'
+    isAbstract='false'
+    isActive='false'
+    isFinalSpecialization='false'
+    isLeaf='false'
+    isReentrant='true'
+    name='login-security'
+    visibility='public'/>
+ </uml:Collaboration>
+</xmi:XMI>
