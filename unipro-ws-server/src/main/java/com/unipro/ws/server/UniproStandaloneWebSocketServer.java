@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 import org.glassfish.tyrus.server.Server;
 
-import com.unipro.websocket.UniproEndpoint;
+import com.unipro.websocket.endpoint.UniproEndpoint;
 
 public class UniproStandaloneWebSocketServer {
 
