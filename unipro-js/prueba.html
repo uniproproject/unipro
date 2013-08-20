@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>websocket test</title>
+
+    <script type="text/javascript">
+        var wsocket;
+        function connect() {
+
+            wsocket = new WebSocket("ws://localhost:8025/unipro/uniprows/diego");
+
+            wsocket.onmessage = onMessage;
+        }
+
+        function onMessage(evt) {
+
+        }
+        window.addEventListener("load", connect, false);
+    </script>
 </head>
 <body>
 

@@ -11,6 +11,7 @@ import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 
 import org.slf4j.LoggerFactory;
+import org.springframework.web.socket.server.endpoint.SpringConfigurator;
 
 import com.unipro.websocket.api.Talker;
 
@@ -18,7 +19,7 @@ import com.unipro.websocket.api.Talker;
  * @author juanfe
  *
  */
-@ServerEndpoint(value = "/uniprows/{id}")
+@ServerEndpoint(value = "/uniprows/{id}", configurator=SpringConfigurator.class)
 public class UniproEndpoint {
 
 	private static final org.slf4j.Logger LOGGER = LoggerFactory

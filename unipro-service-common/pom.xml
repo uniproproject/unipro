@@ -10,4 +10,14 @@
   	<artifactId>unipro-parent</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
   </parent>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>com.unipro.service</groupId>
+  		<artifactId>unipro-service</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	
+  	
+  </dependencies>
 </project>

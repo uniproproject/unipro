@@ -7,6 +7,18 @@
    isLeaf='false'
    name='Collaboration2'
    visibility='public'>
+  <collaborationRole href='urn:uuid:efa11d34-5bc9-439a-aeea-cb6a38a27c0a'/>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:efa11d34-5bc9-439a-aeea-cb6a38a27c0a'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='LoginPage'
+    aggregation='none'/>
   <ownedBehavior xmi:type='uml:Interaction' xmi:uuid='urn:uuid:f0edbb13-cf1c-4fdf-947c-788c7b4f01f4'
     isAbstract='false'
     isActive='false'
@@ -14,6 +26,11 @@
     isLeaf='false'
     isReentrant='true'
     name='login-security'
-    visibility='public'/>
+    visibility='public'>
+   <lifeline xmi:type='uml:Lifeline' xmi:uuid='urn:uuid:942e3f17-d656-4817-a9ed-560788423980'
+     name='Lifeline1'>
+    <represents href='urn:uuid:efa11d34-5bc9-439a-aeea-cb6a38a27c0a'/>
+   </lifeline>
+  </ownedBehavior>
  </uml:Collaboration>
 </xmi:XMI>
