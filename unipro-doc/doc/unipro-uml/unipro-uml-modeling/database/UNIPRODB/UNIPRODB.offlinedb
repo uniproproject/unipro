@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProviderSettings xmlns="http://xmlns.oracle.com/ide/hash">
+   <value n="id" v="58bc6732-b16a-4877-8a4c-b0dfdabe7d7d"/>
+   <value n="name" v="UNIPRODB"/>
+</ProviderSettings>

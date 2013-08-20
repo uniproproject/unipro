@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:4d30e1ff-73de-4404-b198-40fe5018f90b'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Student'
+   visibility='public'>
+  <generalization xmi:type='uml:Generalization' xmi:uuid='urn:uuid:16505a75-b47b-427a-a12a-1af854dabd5c'
+    isSubstitutable='true'>
+   <general href='urn:uuid:a7abd685-634f-44eb-a017-19963e69c7a8'/>
+  </generalization>
+ </uml:Class>
+</xmi:XMI>

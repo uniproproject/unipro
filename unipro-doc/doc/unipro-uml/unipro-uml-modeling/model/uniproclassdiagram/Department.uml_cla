@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
  <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
- <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:22037b3d-2ac9-4c1d-9d7b-fad0d6c8bd38'
-   name='uniproumlmodeli'
-   visibility='public'/>
- <uml:Package xmi:type='uml:Package' xmi:uuid='urn:uuid:d9f48a48-19b7-4655-859d-a983e75b3a1d'
-   name='uniproumlmodel'
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:354e9f7f-6ae2-45ca-b003-02750c99e0e8'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Department'
    visibility='public'/>
 </xmi:XMI>
