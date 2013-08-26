@@ -10,9 +10,16 @@
 		</layout>
 	</appender>
 	
+	
+	
 	<!-- Application Loggers -->
 	<logger name="com.unipro.unipro">
 		<level value="debug" />
+	</logger>
+	
+	
+	<logger name="org.springframework">
+		<level value="trace" />
 	</logger>
 	
 	<!-- 3rdparty Loggers -->

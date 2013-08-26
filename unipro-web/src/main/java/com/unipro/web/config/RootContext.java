@@ -1,4 +1,4 @@
-package com.unipro.web.controller.config;
+package com.unipro.web.config;
 
 import org.springframework.context.annotation.Configuration;
 
