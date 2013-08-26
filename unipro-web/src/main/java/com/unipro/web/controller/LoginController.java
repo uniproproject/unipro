@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.unipro.model.User;
-
+@Controller
 public class LoginController {
 
 	public LoginController() {

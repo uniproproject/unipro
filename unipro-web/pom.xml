@@ -117,11 +117,19 @@
 			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- project dependencies -->
 		<dependency>
 			<groupId>com.unipro.model</groupId>
 			<artifactId>unipro-model</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.unipro.websocket</groupId>
+			<artifactId>unipro-websocket</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
 	</dependencies>
 
 

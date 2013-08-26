@@ -8,7 +8,7 @@
 <script type="text/javascript">
       var wsocket;
       function connect() {
-          wsocket = new WebSocket("ws://localhost:8080/unipro-web/uniprows)");
+          wsocket = new WebSocket("ws://localhost:8080/unipro-web/uniprowsxxxxx)");
           
           wsocket.onmessage = onMessage;
       }

@@ -1,0 +1,9 @@
+
+changed values in
+
+org.eclipse.wst.common.project.facet.core.xml
+<installed facet="jst.web" version="2.5"/> <-- before was <installed facet="jst.web" version="3.1"/>
+
+for use tomcat 8RC1
+
+-------------------------------------------------------------------------------------------------------------------------

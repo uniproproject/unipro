@@ -19,7 +19,7 @@ import com.unipro.websocket.api.Talker;
  * @author juanfe
  *
  */
-@ServerEndpoint(value = "/uniprows/{id}", configurator=SpringConfigurator.class)
+@ServerEndpoint(value = "/uniprows", configurator=SpringConfigurator.class)
 public class UniproEndpoint {
 
 	private static final org.slf4j.Logger LOGGER = LoggerFactory
@@ -42,7 +42,7 @@ public class UniproEndpoint {
 	 * 
 	 */
 	public UniproEndpoint() {
-		
+		System.out.println("construct unipro endpoint");
 	}
 	
 	
@@ -50,16 +50,16 @@ public class UniproEndpoint {
 	@OnOpen
 	public void onOpen(Session session, @PathParam("id") String id) {
 		
-		if(id.equalsIgnoreCase("diego")) {
-			tutorSession = session;
-		} else {
-			try {
-				tutorSession.getBasicRemote().sendText("Alumn whith session = " + session.getId() + " connected.");
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
+//		if(id.equalsIgnoreCase("diego")) {
+//			tutorSession = session;
+//		} else {
+//			try {
+//				tutorSession.getBasicRemote().sendText("Alumn whith session = " + session.getId() + " connected.");
+//			} catch (IOException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
 		
 		
 		
