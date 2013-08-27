@@ -7,6 +7,8 @@ import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 
+import com.unipro.websocket.spring.config.EndpointConfig;
+
 public class DispatcherServletInitializer implements WebApplicationInitializer {
 
 	@Override

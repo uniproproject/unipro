@@ -1,5 +1,9 @@
 package com.unipro.model;
 
-public class Professor extends User {
+public class Tutor extends User {
+	
+	public Tutor() {
+		
+	}
 
 }

@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.unipro.model.User;
+
 @Controller
 public class LoginController {
 
@@ -13,7 +14,7 @@ public class LoginController {
 
 	}
 
-	@RequestMapping(value = "/", method=RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String loginForm(Model model) {
 		User user = new User();
 		model.addAttribute(user);
@@ -21,19 +22,18 @@ public class LoginController {
 		return "login";
 
 	}
-	
-	
-	@RequestMapping(value = "/", method=RequestMethod.POST)
+
+	@RequestMapping(value = "/", method = RequestMethod.POST)
 	public String processLoginForm(User person, Model model) {
 		String view = "student";
-		
-		if (person.getName().equalsIgnoreCase("diego")) {
+
+		if (person.getUserName().equalsIgnoreCase("diego")) {
 			view = "professor";
 		}
-		
+
 		model.addAttribute(person);
-		
-		return  view;
+
+		return view;
 
 	}
 }

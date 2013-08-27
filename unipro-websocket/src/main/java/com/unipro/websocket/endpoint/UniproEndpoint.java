@@ -1,7 +1,5 @@
 package com.unipro.websocket.endpoint;
 
-import java.io.IOException;
-
 import javax.websocket.OnClose;
 import javax.websocket.OnError;
 import javax.websocket.OnMessage;
@@ -12,8 +10,6 @@ import javax.websocket.server.ServerEndpoint;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.web.socket.server.endpoint.SpringConfigurator;
-
-import com.unipro.websocket.api.Talker;
 
 /**
  * @author juanfe
@@ -32,7 +28,7 @@ public class UniproEndpoint {
 	/**
 	 * The talker for this websocket instance 
 	 */
-	private Talker talker;
+	
 	
 	
 
