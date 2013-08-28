@@ -13,7 +13,7 @@ import org.springframework.web.socket.server.endpoint.SpringConfigurator;
 @ServerEndpoint(value="/tutor", configurator=SpringConfigurator.class)
 public class TutorEndpoint {
 	
-
+	
 
 	@OnOpen
 	public void onOpen(Session session, String message) {

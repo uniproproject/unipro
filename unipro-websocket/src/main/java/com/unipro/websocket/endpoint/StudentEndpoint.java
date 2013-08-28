@@ -9,8 +9,12 @@ import javax.websocket.server.ServerEndpoint;
 
 import org.springframework.web.socket.server.endpoint.SpringConfigurator;
 
+import com.unipro.websocket.wsmodel.StudentOnline;
+
 @ServerEndpoint(value = "/student", configurator = SpringConfigurator.class)
 public class StudentEndpoint {
+	
+	private StudentOnline studentPeer;
 
 	@OnOpen
 	public void onOpen(Session session, String message) {

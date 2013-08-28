@@ -28,27 +28,27 @@
 
 
 		<!-- logging -->
-		
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-				</dependency>
+		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>jcl-over-slf4j</artifactId>
-		
+
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-		
+
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
-		
+
 			<exclusions>
 				<exclusion>
 					<groupId>javax.mail</groupId>
@@ -69,12 +69,25 @@
 			</exclusions>
 			<scope>runtime</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>javax.websocket</groupId>
 			<artifactId>javax.websocket-api</artifactId>
 			<version>1.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.unipro.service.common</groupId>
+			<artifactId>unipro-service-common</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.unipro.service</groupId>
+			<artifactId>unipro-service</artifactId>
+		</dependency>
+
+
+
 
 	</dependencies>
 </project>

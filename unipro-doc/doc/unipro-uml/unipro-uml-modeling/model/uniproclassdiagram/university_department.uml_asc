@@ -23,7 +23,6 @@
     name='endUniversity'
     aggregation='none'>
    <association href='urn:uuid:54a94bfe-0511-426d-b437-589222278c26'/>
-   <type href='urn:uuid:fcdb5751-842b-4b4a-bf2e-c4ae8be3f590'/>
    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:bf772440-bb02-4438-ae37-d0e5dd30d6d1'
      value='1'
      visibility='public'/>
@@ -43,7 +42,6 @@
     name='endDepartment'
     aggregation='composite'>
    <association href='urn:uuid:54a94bfe-0511-426d-b437-589222278c26'/>
-   <type href='urn:uuid:354e9f7f-6ae2-45ca-b003-02750c99e0e8'/>
    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:70602d14-c199-4901-b03c-3bd30a5a40f8'
      value='0'
      visibility='public'/>

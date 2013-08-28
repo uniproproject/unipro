@@ -9,4 +9,11 @@
   	<artifactId>unipro-parent</artifactId>
   	<version>0.0.1-SNAPSHOT</version>
   </parent>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>com.unipro.model</groupId>
+  		<artifactId>unipro-model</artifactId>
+  	</dependency>
+  </dependencies>
 </project>

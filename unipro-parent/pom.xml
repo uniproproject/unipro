@@ -9,6 +9,7 @@
 	<description>all project's parent		</description>
 
 	<properties>
+		<unipro.version>0.0.1-SNAPSHOT</unipro.version>
 		<!-- Force UTF-8 encodig -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
@@ -23,6 +24,47 @@
 
 	<dependencyManagement>
 		<dependencies>
+
+
+			<dependency>
+				<groupId>com.unipro.model</groupId>
+				<artifactId>unipro-model</artifactId>
+				<version>${unipro.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.unipro.persistence.common</groupId>
+				<artifactId>persistence-common</artifactId>
+				<version>${unipro.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.unipro.persistence</groupId>
+				<artifactId>unipro-persistence</artifactId>
+				<version>${unipro.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.unipro.service.common</groupId>
+				<artifactId>unipro-service-common</artifactId>
+				<version>${unipro.version}</version>
+			</dependency>
+
+
+			<dependency>
+				<groupId>com.unipro.service</groupId>
+				<artifactId>unipro-service</artifactId>
+				<version>${unipro.version}</version>
+			</dependency>
+
+
+			<dependency>
+				<groupId>com.unipro.websocket</groupId>
+				<artifactId>unipro-websocket</artifactId>
+				<version>${unipro.version}</version>
+			</dependency>
+
+
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
@@ -35,13 +77,13 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			
+
 			<dependency>
-					<groupId>org.springframework</groupId>
-					<artifactId>spring-context</artifactId>
-					<version>${org.springframework-version}</version>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-context</artifactId>
+				<version>${org.springframework-version}</version>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-web</artifactId>

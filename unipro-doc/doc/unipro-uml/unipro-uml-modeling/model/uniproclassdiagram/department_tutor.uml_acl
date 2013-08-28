@@ -23,7 +23,6 @@
     name='endDepartment'
     aggregation='none'>
    <association href='urn:uuid:e77f5957-5674-4dbc-9067-e7ce5863fa9f'/>
-   <type href='urn:uuid:354e9f7f-6ae2-45ca-b003-02750c99e0e8'/>
    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:db14c00a-f113-4c8e-97b9-02b213623256'
      value='1'
      visibility='public'/>

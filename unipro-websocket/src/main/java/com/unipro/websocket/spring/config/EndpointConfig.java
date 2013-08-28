@@ -5,8 +5,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 import org.springframework.web.socket.server.endpoint.ServerEndpointExporter;
 
-import com.unipro.websocket.wsmodel.StudentPeer;
-import com.unipro.websocket.wsmodel.TutorPeer;
+import com.unipro.websocket.wsmodel.StudentOnline;
+import com.unipro.websocket.wsmodel.TutorOnline;
 
 
 @Configuration
@@ -19,14 +19,14 @@ public class EndpointConfig {
 
 	@Bean
 	@Scope(value="prototype")
-	public StudentPeer studentPeer() {
-		return new StudentPeer();
+	public StudentOnline studentPeer() {
+		return new StudentOnline();
 	}
 	
 	@Bean
 	@Scope(value="prototype")
-	public TutorPeer tutorPeer() {
-		return new TutorPeer();
+	public TutorOnline tutorPeer() {
+		return new TutorOnline();
 	}
 
 //	@Bean
